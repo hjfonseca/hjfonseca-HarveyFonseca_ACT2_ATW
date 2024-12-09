@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logica</title>
+    <link rel="stylesheet" href="logica.css">
+</head>
+<body>
+    <header>
+        <h1>Web Interactiva</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="logica.html">Funcionalidades Lógicas</a></li>
+                <li><a href="registro.html">Registro De Usuarios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="funcioneslog">
+        <h1>Funciones Lógicas</h1>
+        <div class="logica">
+            <h2>Comparación o igualdad</h2>
+            <input type="number" name="primernumero" id="primernumero" placeholder="Ingrese un primer numero" required>
+            <input type="number" name="segundonumero" id="segundonumero" placeholder="Ingrese un segundo numero" required> <br>
+            <button id="btncomp" >Comparar!</button>
+            <div id="resultado"></div>
+        </div>
+        <div class="logica">
+            <h2>Mes</h2>
+            <input type="number" name="mescorresp" id="mescorresp" placeholder="Ingrese un numero (1-12)" required> <br>
+            <button id="bntmes">Mostrar mes</button>
+            <div id="mostrarmes"></div>
+        </div>
+        <div class="logica">
+            <h2>Agregar Nombres</h2>
+            <input type="text" name="nombres" id="nombres" placeholder="Ingrese un nombre" required> <br>
+            <button id="bntnombres">Agregar</button>
+            <div id="mostrarnombres"></div>
+        </div>
+    </section>
+    <script src="JavaScript1.js"></script>
+</body>
+</html>

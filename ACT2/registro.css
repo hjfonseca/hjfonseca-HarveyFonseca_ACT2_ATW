@@ -1,0 +1,87 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(189, 82, 82);
+}
+
+header{
+    background-color: #ebee55;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin: 10px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+header nav ul li a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#reg{
+    text-align: center;
+    padding: 15px;
+}
+
+form{
+    background-color: brown;
+    padding: 15px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.8);
+}
+
+form input, form select{
+    padding: 8px;
+    width: 90%;
+    margin: 4px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+form label{
+    margin: 8px 6px;
+    color: rgb(194, 196, 194);
+}
+
+form button{
+    background-color: darkgray;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+form button:hover{
+    color: beige;
+    background-color: brown;
+}
+
+tr{
+    background-color: rgb(124, 124, 124);
+}
+
+td{
+    background-color: rgb(175, 174, 174);
+}
+
+#usuah1{
+    text-align: center;
+}
+
+#usuah1:hover{
+    color: beige;
+}

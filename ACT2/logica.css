@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(189, 82, 82);
+}
+
+header{
+    background-color: #ebee55;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin: 10px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+header nav ul li a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.funcioneslog{
+    text-align: center;
+    padding: 15px;
+}
+
+.funcioneslog h1{
+    color: beige;
+}
+
+.funcioneslog h1:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+#mostrarnombres, #resultado{
+    font-size: 15px;
+    color: black;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.logica{
+    padding: 10px;
+    margin-top: 15px;
+    color: rgb(51, 14, 14);
+    border-radius: 8px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+.logica input{
+    padding: 6px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 15%;
+}
+
+.logica button{
+    background-color: darkgray;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.logica button:hover{
+    color: beige;
+    background-color: brown;
+}
+
+
+
+
+

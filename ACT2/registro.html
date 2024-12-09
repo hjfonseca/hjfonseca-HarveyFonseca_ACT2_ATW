@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+    <header>
+        <h1>Web Interactiva</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="logica.html">Funcionalidades Lógicas</a></li>
+                <li><a href="registro.html">Registro De Usuarios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="reg">
+        <h2>Registro de Usuarios</h2>
+        <div>
+            <form id="formulario">
+                <label for="id">ID</label>
+                <input type="text" name="id" id="id" placeholder="Ejemplo: L00######" required> <br> <br>
+                <label for="cedula">Cédula de identidad</label>
+                <input type="text" name="cedula" id="cedula" placeholder="Ingrese 10 dígitos" required> <br> <br>
+                <label for="nombre">Nombres y apellidos</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombres Y Apellidos" required> <br> <br>
+                <label for="fecha">Fecha de nacimiento</label>
+                <input type="date" name="fecha" id="fecha" required> <br> <br>
+                <label for="ciudad">Ciudad de procedencia</label>
+                <select name="ciudad" id="ciudad">
+                    <option value="quito">Quito</option>
+                    <option value="riobamba">Riobamba</option>
+                    <option value="loja">Loja</option>
+                    <option value="guayaquil">Guayaquil</option>
+                    <option value="cuenca">Cuenca</option>
+                    <option value="ambato">Ambato</option>
+                </select>
+                <br> <br>
+                <button type="button" id="btnregistro">Registrarse</button>
+            </form>
+        </div>
+    </section>
+    <script src="JavaScript2.js"></script>
+</body>
+</html>
